@@ -1,0 +1,67 @@
+@import "reset.scss";
+@import "helpers";
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	@include simple-diagonal-gradient(#f9f9f9, #e0e0e0);
+}
+.main {
+	width: 840px;
+	min-height: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 50px 0;
+	@include box-sizing();
+}
+
+.cardWrapper{
+  width:200px;
+  height:200px;
+  position:relative;
+  /*background-color:#333;*/
+  float:left;
+  margin-right:10px;
+  left: -1200px;
+  -webkit-font-smoothing:antialiased;
+}
+
+.cardFace{
+  position:absolute;
+  width:200px;
+  height:200px;
+  overflow:hidden;
+}
+
+.front{
+  background-color:#333;
+}
+
+.back{
+  background-color:#333;
+}
+
+.btn-off, .btn-on {
+	position: absolute;
+	right: 0;
+}
+
+.cardFace h1{
+  margin:0px;
+  font-size:30px;
+  padding:10px 0px 10px 10px;
+  color:white;
+}
+
+.cardFace.back h1{
+ border-color:#91e600;
+}
+
+.moreInfo{
+  padding:10px;
+  color:white;
+  line-height:24px;
+}

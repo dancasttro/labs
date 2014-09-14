@@ -1,0 +1,21 @@
+{
+  "name": "pane-tweenmax",
+  "version": "0.0.1",
+  "homepage": "https://github.com/dancasttro/labs",
+  "authors": [
+    "Daniel Castro <dancasttro@gmail.com>"
+  ],
+  "description": "labs",
+  "main": "main.js",
+  "keywords": [
+    "test"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

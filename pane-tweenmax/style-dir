@@ -1,0 +1,42 @@
+/*
+Syntax error: Invalid property: "Backtrace:" (no value).
+        on line 4 of style-dir
+
+1: /*
+2: Errno::ENOENT: No such file or directory - style-dir
+3: 
+4: Backtrace:
+5: /Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:369:in `read'
+6: /Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:369:in `update_stylesheet'
+7: /Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:189:in `block in update_stylesheets'
+8: /Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:186:in `each'
+9: /Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:186:in `update_stylesheets'
+
+Backtrace:
+style-dir:4
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/engine.rb:737:in `parse_property'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/engine.rb:699:in `parse_property_or_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/engine.rb:665:in `parse_line'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/engine.rb:543:in `build_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/engine.rb:562:in `block in append_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/engine.rb:561:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/engine.rb:561:in `append_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/engine.rb:412:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/engine.rb:274:in `render'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:378:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:189:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:186:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:186:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:357:in `on_file_changed'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:250:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.7.9/lib/listen/listener.rb:276:in `call'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.7.9/lib/listen/listener.rb:276:in `_process_changes'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.7.9/lib/listen/listener.rb:233:in `block in _wait_for_changes'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.7.9/lib/listen/listener.rb:216:in `loop'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.7.9/lib/listen/listener.rb:216:in `_wait_for_changes'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.7.9/lib/listen/listener.rb:312:in `block in _start_wait_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid property: \"Backtrace:\" (no value).\A         on line 4 of style-dir\A \A 1: /*\A 2: Errno::ENOENT: No such file or directory - style-dir\A 3: \A 4: Backtrace:\A 5: /Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:369:in `read'\A 6: /Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:369:in `update_stylesheet'\A 7: /Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:189:in `block in update_stylesheets'\A 8: /Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:186:in `each'\A 9: /Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:186:in `update_stylesheets'"; }

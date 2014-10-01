@@ -1,4 +1,4 @@
-labs
+Labs
 ====
 
-A Simple repository for experiments
+A Simple repository for experiments for Github

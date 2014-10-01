@@ -20,7 +20,7 @@ $(document).ready(function() {
 	    function(){
 	    	TweenMax.to($(this).find(card), 0.5, {scaleX: 1.1, scaleY: 1.1});
 	    	TweenMax.to($(this).find(cardFace), 0.5, {css:{boxShadow: "0 0 40px #777"}, ease:Back.easeOut});
-	    	// TweenMax.to(cardFace, 0.5, {boxShadow: "0 0 40px #777"});
+//	    	TweenMax.to(cardFace, 0.5, {boxShadow: "0 0 40px #777"});
 	},
 		function(){
 	    	TweenMax.to($(this).find(card), 0.5, {scaleX: 1, scaleY: 1});

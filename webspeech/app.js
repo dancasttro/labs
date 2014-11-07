@@ -28,7 +28,6 @@
 					if(words[0] == 'buscar'){
 						window.location.replace('https://www.google.com/search?q=' + transcript.replace('buscar',''), '_blank');
 					}
-					// console.log(words);
 					return true;
 				}else{
 					$result.text($('#result').text() + transcript);

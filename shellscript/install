@@ -28,18 +28,6 @@ msg '  														 '
 #     Config     #
 ##################
 TYPEAPP
-# SRC=src/scripts
-CONTROLLERS=controllers/
-export CONTROLLERS
-
-SERVICES=services/
-export SERVICES
-
-DIRECTIVES=directives/
-export DIRECTIVES
-
-FILTERS=filters/
-export FILTERS
 
 function init {
 
@@ -52,11 +40,10 @@ function init {
 
 init
 
-
 function small {
 	msg_install "Projeto pequeno"
-	mkdir -p ${CONTROLLERS}
-	# git clone https://github.com/dancasttro/sass-mixins.git
+	mkdir -p src/{controllers,services,filters,directives}
+	git clone https://github.com/dancasttro/html-boilerplate-project.git public
 	msg_ok "OK"
 }
 

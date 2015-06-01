@@ -1,0 +1,155 @@
+.carousel-wrap {
+	position: relative;
+	margin-top: 20px;
+}
+.slider-wrapper {
+	width: 390px;
+	min-height: 130px;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 0px;
+	overflow: hidden;
+}
+.inner-wrap {
+	position: relative;
+	min-height: 80px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.overflow-wrapper {
+	width: 400%;
+	min-height: 80px;
+	position: absolute;
+	left: 0;
+	overflow-y: hidden;
+	z-index: 1;
+}
+.slide-item {
+	width: 390px;
+	padding: 0 40px;
+	min-height: 60px;
+	float: left;
+	cursor: pointer;
+}
+.carousel-address {
+	position: relative;
+}
+.carousel-address .right.btn-small {
+	padding-top: 0;
+}
+.carousel-card .inner-wrap{
+	position: relative;
+	min-height: 100px;
+}
+.carousel-phone {
+	position: relative;
+}
+
+/*EFFECT SLIDE*/
+.overflow-wrapper {
+	-webkit-transition:0.5s linear all;
+	-moz-transition:0.5s linear all;
+	-o-transition:0.5s linear all;
+	transition:0.5s linear all;
+}
+/*END EFFECT SLIDE*/
+
+.carousel-wrap > h2 {
+	margin: 15px 0;
+}
+
+.slide-item > p {
+	margin: 3px 0;
+}
+
+.carousel-address h2, .carousel-card h2, .carousel-phone h2 {
+	margin-bottom: 20px;
+}
+.carousel-phone .arrow {
+	top: 26%;
+}
+.carousel-address .arrow {
+	top: 30%;
+}
+.carousel-card .arrow {
+	top: 35%;
+}
+.arrow {
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	position: absolute;
+	background: url("../../../images/arrow.png") no-repeat;
+	text-indent: -99999px;
+	top: 50%;
+	z-index: 99;
+	border: none;
+	-moz-outline:0 none;
+	-webkit-outline:0 none;
+	outline:0 none;
+}
+.arrow-prev {
+	background-position: -4px 2px;
+}
+.arrow-prev:hover {
+	background-position: -5px -36px;
+}
+.arrow-prev-hover {
+	background-position: -5px -36px;
+}
+.arrow-next {
+	background-position: -35px 2px;
+	right: 0;
+}
+.arrow-next:hover {
+	background-position: -35px -36px;
+}
+.arrow-next-hover {
+	background-position: -35px -36px;
+}
+.pagination-wrap {
+	text-align: center;
+	width: 100%;
+}
+.carousel-card .pagination-wrap, .carousel-phone .pagination-wrap {
+	margin-bottom: 20px;
+}
+.pagination-circle {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	background: #D2D1D1;
+	margin: 0 3px;
+	cursor: pointer;
+	text-align: center;
+	border: none;
+  	padding: 0;
+}
+.pagination-circle:hover, .pagination-circle.active {
+	background-color: #778385;
+}
+.tel-value-carousel {
+	font-size: 14px;
+	margin: 0 0 5px 0;
+}
+.type-value-carousel {
+	margin-bottom: 5px;
+}
+/*.slide-item.card-brand-content {
+	width: 280px;
+  	margin: 0 auto;
+  	height: 100px;
+  	margin-bottom: 30px;
+}*/
+.card-brand {
+	display: block;
+	width: 160px;
+	height: 100px;
+}
+.brand-visa {
+	background: url("../../../images/img-card.png") no-repeat;
+}
+.brand-mastercard {
+	background: url("../../../images/master.jpg") no-repeat;
+}

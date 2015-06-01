@@ -1,7 +1,8 @@
+
 # -- GULPIFY ------------------------------------------------------------------------------------------
 #
-# Name       : Bootstrap for AngularJS
-# Descrition : simple bootstrap for AngularJS
+# Name       : Bootstrap for Projects Gulp
+# Descrition : simple bootstrap for Projects Gulp
 # Version    : 0.1.0
 # Author     : Daniel Castro <dancasttro@gmail.com>
 #
@@ -20,54 +21,48 @@ INFO  = \033[36m→\033[36m
 LINE  = -----------------------------------------
 
 # Scaffolding
-# SRC    = src/{js,styles,images,fonts,lib,partials}
-# PUBLIC = public/{scripts,styles,images/icons,fonts}
+SRC    = src/{scripts/vendor,styles,imgs,fonts}
+# PUBLIC = public/{scripts/vendor,styles,imgs,fonts}
 
-# APP = src/js/app.js
-# CONTROLLERS = src/js/controllers.js
-# SERVICES = src/js/services.js
-# DIRECTIVES = src/js/directives.js
-# FILTERS = src/js/filters.js
-# STYLE  = src/styles/styles.css
-# VIEW   = src/index.html
+SCRIPT = src/scripts/main.js
+STYLE  = src/styles/style.scss
+# VIEW   = public/index.html
+
+# Styles
+STYLE_DIR = src/styles/{base,components,layout,lib}
+
 
 # Global Tasks
 global:
 	@echo " $(INFO) Installing Dependencies... please wait."
 	@sudo npm install -q
-	@rm -rf makefile logo-gulpify.jpg README.md
 
 
 # -------------------------------------------------------------------------------------
 # NEW PROJECT
 # -------------------------------------------------------------------------------------
 
-new: init_new
-	@echo ""
+new: init_new global
+
 	@echo " $(CHECK) Done!"
 
 init_new:
+
+	@echo "     ______      __         ____        _ __                __      __      "  
+	@echo "    / ____/_  __/ /___     / __ )____  (_) /__  _________  / /___ _/ /____  "
+	@echo "   / / __/ / / / / __ \   / __  / __ \/ / / _ \/ ___/ __ \/ / __  / __/ _ \ "
+	@echo "  / /_/ / /_/ / / /_/ /  / /_/ / /_/ / / /  __/ /  / /_/ / / /_/ / /_/  __/ "
+	@echo "  \____/\__,_/_/ .___/  /_____/\____/_/_/\___/_/  / .___/_/\__,_/\__/\___/  "
+	@echo "              /_/                                /_/                        "
+
+
 	@echo " $(INFO) Scaffolding"
 
 	@bash -c "mkdir -p $(SRC)"
+	@bash -c "mkdir -p $(STYLE_DIR)"
+	@sudo git clone https://github.com/dancasttro/html-boilerplate-project.git public
 
-	@touch $(APP)
-	@touch $(CONTROLLERS)
-	@touch $(SERVICES)
+	@touch $(SCRIPT)
+	@touch $(STYLE)
 
-
-# -------------------------------------------------------------------------------------
-# EXISTING PROJECT
-# -------------------------------------------------------------------------------------
-
-
-# current: init_current global
-# 	@echo ""
-# 	@echo " $(CHECK) Done!"
-
-# init_current:
-# 	@echo " $(INFO) Scaffolding"
-
-# 	@mv * .[^.]* ..
-
-# 	@rm gulpify
+	touch index

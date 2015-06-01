@@ -1,0 +1,37 @@
+.checkout-box {
+	position: relative;
+	border-bottom: 1px solid #d1d1d1;
+	display: block;
+	padding: 20px 20px;
+}
+
+.checkout-box-last {
+	border-bottom: none;
+}
+
+.card-box {
+	margin: 8px 8px 8px 0px;
+	height: 40px;
+	width: 63px;
+	display: block;
+	border: 1px solid #d1d1d1;
+	background: #f1f1f1;
+}
+
+.checkout-payment-datas {
+	position: absolute;
+	top: 45px;
+	left: 97px;
+	width: 150px;
+}
+
+.checkout-bold {
+	position: relative;
+	font-size: 12px;
+	font-weight:bold;
+}
+
+.checkout-normal {
+	position: relative;
+	font-size: 12px;
+}

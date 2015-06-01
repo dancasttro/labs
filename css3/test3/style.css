@@ -1,0 +1,76 @@
+$speed: 5s;            // duration of the animation
+$size: 150px;          // size of the cube
+$hs: -$speed/3;        // precalculate the per-face shading animation offset
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #333;
+  perspective: 400px;
+}
+
+.cube {
+  width: $size;
+  height: $size;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -$size/2;
+  transform-origin: 50% 50% $size/2;
+  animation: $speed spinXY linear infinite, $speed shade linear infinite;
+  transform-style: preserve-3d;
+}
+
+.cube:before, .cube:after {
+  content: "";
+  position: absolute;
+  width: inherit;
+  height: inherit;
+}
+.cube:before {
+  transform: translateX($size/2) translateZ($size/2) rotateY(90deg);
+  animation: $speed $hs*2 shade linear infinite;
+}
+
+.cube:after {
+  transform: translateY(-$size/2) translateZ($size/2) rotateX(90deg);
+  animation: $speed $hs shade linear infinite;
+}
+
+@keyframes spinXY {
+  0% {
+    transform: rotateY(-90deg) rotateX(90deg) scaleZ(-1);
+  }
+  24.999% {
+    transform: rotateY(-180deg) rotateX(180deg) scaleZ(-1);
+  }
+  25% {
+    transform: rotateY(180deg) rotateX(-180deg) scaleX(-1) scaleY(-1) scaleZ(-1);
+  }
+  49.999% {
+    transform: rotateY(90deg) rotateX(-90deg) scaleX(-1) scaleY(-1) scaleZ(-1);
+  }
+  50% {
+    transform: rotateY(-90deg) rotateX(90deg);
+  }
+  74.999% {
+    transform: rotateY(-180deg) rotateX(0deg);
+  }
+  75% {
+    transform: rotateY(180deg) rotateX(0deg) scaleX(-1) scaleY(-1);
+  }
+  100% {
+    transform: rotateY(90deg) rotateX(-90deg) scaleX(-1) scaleY(-1);
+  }
+}
+
+@keyframes shade {
+  0%, 50%, 100% {
+    background-color: hsl(220, 30%, 15%);
+  }
+  25%, 75% {
+    background-color: hsl(220, 100%, 85%);
+  }
+}

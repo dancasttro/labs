@@ -1,0 +1,40 @@
+.img-card {
+	width: 159px;
+	height: 101px;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+.card-brand-diners {
+	background: url(../../../images/card-diners.png) no-repeat;
+}
+.card-brand-visa {
+	background: url(../../../images/card-visa.png) no-repeat;
+}
+.card-brand-mastercard {
+	background: url(../../../images/card-master.png) no-repeat;
+}
+.card-brand-hiper {
+	background: url(../../../images/card-hiper.png) no-repeat;
+}
+.card-brand-hipercard {
+	background: url(../../../images/card-hipercard.png) no-repeat;
+}
+
+.div-margin {
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
+.spn-card-checkout {
+	font-size: 16px;
+}
+
+.div-card-checkout p:first-child {
+	margin-top: 10px;
+}
+
+.div-card-checkout p {
+	margin: 0 0 5px 0;
+}

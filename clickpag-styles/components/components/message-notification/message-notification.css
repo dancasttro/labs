@@ -1,0 +1,66 @@
+.message-notification {
+    position: absolute;
+    top: 80px;
+    overflow: hidden;
+    width: 740px;
+    z-index: 9999;
+}
+
+.message-notification .active {
+    transition: all 0.35s ease-out;
+    box-shadow: 0 0 5px #B8B8B8;
+}
+
+.message-notification-box {
+    position: relative;
+    top: -2000px;
+    background-color: #A0A0A0;
+    color: #FFFFFF;
+    padding: 15px 60px 15px 15px;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 13px;
+    cursor: pointer;
+    box-shadow: 0 0 5px #B8B8B8;
+}
+
+.message-notification-box:before {
+    content: "";
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    top: 22px;
+    right: 24px;
+    border-radius: 2px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+
+.message-notification-box:after {
+    content: "";
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    top: 22px;
+    right: 24px;
+    border-radius: 2px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
+
+.message-notification-text {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+/******************************************
+* MOBILE CSS
+*******************************************/
+.mobile .message-notification {
+    width: 100%;
+    top: 0px;
+}

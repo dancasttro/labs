@@ -1,0 +1,70 @@
+
+
+.img-card {
+    width: 159px;
+    height: 101px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.card-brand-diners {
+    background: url(/assets/images/card-diners.png) no-repeat;
+}
+.card-brand-visa {
+    background: url(/assets/images/card-visa.png) no-repeat;
+}
+.card-brand-mastercard {
+    background: url(/assets/images/card-master.png) no-repeat;
+}
+.card-brand-hiper {
+    background: url(/assets/images/card-hiper.png) no-repeat;
+}
+.card-brand-hipercard {
+    background: url(/assets/images/card-hipercard.png) no-repeat;
+}
+
+.div-margin {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.img-wrap-card {
+    margin: 15px 0;
+}
+.card-info-mobile span {
+    font-size: 16px;
+}
+
+.div-card-checkout p:first-child {
+    margin-top: 10px;
+}
+
+.div-card-checkout p {
+    margin: 0 0 5px 0;
+}
+
+.spn-card-checkout {
+    font-size: 16px;
+}
+
+.spn-valid-card-checkout {
+    position: relative;
+    font-size: 13px;
+    top: 1px;
+}
+
+/******************************************
+* MOBILE CSS
+*******************************************/
+@media screen and (max-width: 739px) {
+    .img-wrap-card {
+        margin: 15px 0;
+        width: 70px;
+    }
+    .img-wrap-carousel img {
+    	width: 100%;
+    }
+    .img-card-brand {
+        width: 92px;
+    }
+}

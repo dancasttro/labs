@@ -1,0 +1,7 @@
+.g-recaptcha {
+    margin: 10px;
+}
+
+.g-recaptcha > div > div {
+    margin: auto;
+}

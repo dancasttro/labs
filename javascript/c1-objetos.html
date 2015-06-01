@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Testes JS</title>
+	<script src="app.js"></script>
+	<link rel="stylesheet" href="css.css">
+	<script>
+		Carro = {
+			marca: 'Renault',
+			modelo: 'Logan',
+			ipva: "valor('rb15')",
+			dimensoes: {
+				c: '4.250mm',
+				l: '1.735mm',
+				h: '1525mm'
+			}
+		}
+
+		marca = Carro.marca;
+		modelo = Carro.modelo;
+		comprimento = Carro.dimensoes.c;
+
+
+		executar = function() {
+			console.log(marca);
+			console.log(modelo);
+			console.log(comprimento);
+		}
+	</script>
+</head>
+<body>
+	<button onclick="executar()">Mostrar Propriedades</button>
+</body>
+</html>

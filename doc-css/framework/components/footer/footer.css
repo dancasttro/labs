@@ -1,0 +1,14 @@
+footer
+{
+	margin: 24px;
+}
+
+footer > .left
+{
+	float: left;
+}
+
+footer > .right
+{
+	float: right;
+}

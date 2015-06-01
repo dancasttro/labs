@@ -1,0 +1,54 @@
+/** {
+	padding: 0;
+	margin: 0;
+}
+section {
+	width: 960px;
+	margin: 0 auto;
+	padding: 50px;
+	-webkit-perspective: 600px;
+}
+div {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-color: red;
+	box-shadow: 35px 35px 0 -30px #ccc;
+	transform: rotateY(45deg);
+}
+div:hover {
+	-webkit-animation: pulse 1.5s infinite ease-in-out;
+}
+@-webkit-keyframes pulse {
+  0% {-webkit-box-shadow: 0 0 20px rgba(51, 204, 255, 0.2);}
+  50% {-webkit-box-shadow: 0 0 20px rgba(51, 204, 255, 0.9);}
+  100% {-webkit-box-shadow: 0 0 20px rgba(51, 204, 255, 0.2);}
+}
+
+.ball-arc {
+-webkit-animation: ball-x 2.5s cubic-bezier(0, 0, 0.35, 1);
+}*/
+   /* cubic-bezier here is to adjust the animation-timing speed.
+   This example makes the ball take longer to slow down. */
+
+/*@-webkit-keyframes ball-x {
+   0% { -webkit-transform: translateX(-275px); }
+   100% { -webkit-transform: translateX(0px); }
+}*/
+
+
+.pai {
+	background-color: red;
+	width: 200px;
+	height: 200px;
+}
+.filho {
+	&:hover {
+		.pai {
+			background-color: yellow;
+		}
+	}
+	background-color: green;
+	width: 150px;
+	height: 150px;
+}

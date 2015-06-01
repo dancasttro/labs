@@ -2,3 +2,20 @@
 	color: red;
 	font-size: 25px;
 }
+
+.cart {
+	width: 200px;
+	height: 400px;
+	background: red;
+	-webkit-transition:0.5s linear all;
+	-moz-transition:0.5s linear all;
+	-o-transition:0.5s linear all;
+	transition:0.5s linear all;
+	top: 30px;
+	position: absolute;
+	opacity: 0;
+}
+.cart.foo {
+	opacity: 1;
+	top: 60px;
+}

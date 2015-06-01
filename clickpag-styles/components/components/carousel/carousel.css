@@ -1,0 +1,241 @@
+.carousel-wrap {
+    position: relative;
+    margin-top: 20px;
+}
+.slider-wrapper {
+    width: 370px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 0px;
+}
+.inner-wrap {
+    position: relative;
+    min-height: 80px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.inner-wrap-address {
+    min-height: 90px;
+}
+.overflow-wrapper {
+    width: 400%;
+    height: 100px;
+    position: absolute;
+    left: 24px;
+    overflow-y: hidden;
+    z-index: 1;
+    -webkit-transition:0.5s linear all;
+    -moz-transition:0.5s linear all;
+    -o-transition:0.5s linear all;
+    transition:0.5s linear all;
+}
+.slide-item {
+	width: 330px;
+	padding: 0 20px;
+    height: 100px;
+    float: left;
+    cursor: pointer;
+}
+.carousel-address {
+    position: relative;
+}
+.carousel-address .right.btn-small {
+    padding-top: 0;
+}
+.carousel-card .inner-wrap{
+    position: relative;
+    min-height: 100px;
+}
+.carousel-phone {
+    position: relative;
+}
+
+.carousel-wrap > h2 {
+    margin: 15px 0;
+}
+
+.slide-item > p {
+    margin: 3px 0;
+}
+
+.carousel-address h2, .carousel-card h2, .carousel-phone h2 {
+    margin-bottom: 20px;
+}
+.carousel-phone .arrow {
+    top: 26%;
+}
+.carousel-address .arrow {
+    top: 30%;
+}
+.carousel-card .arrow {
+    top: 35%;
+}
+.arrow {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    background: url("/assets/images/arrow.png") no-repeat;
+    text-indent: -99999px;
+    top: 50%;
+    z-index: 99;
+    border: none;
+    -moz-outline:0 none;
+    -webkit-outline:0 none;
+    outline:0 none;
+}
+.arrow-prev {
+    background-position: -4px 2px;
+}
+.arrow-prev:hover {
+    background-position: -5px -36px;
+}
+.arrow-prev-hover {
+    background-position: -5px -36px;
+}
+.arrow-next {
+    background-position: -35px 2px;
+    right: 0;
+}
+.arrow-next:hover {
+    background-position: -35px -36px;
+}
+.arrow-next-hover {
+    background-position: -35px -36px;
+}
+.pagination-wrap {
+    text-align: center;
+    width: 100%;
+}
+.carousel-card .pagination-wrap, .carousel-phone .pagination-wrap {
+    margin-bottom: 20px;
+}
+.pagination-circle {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 10px;
+    background: #D2D1D1;
+    margin: 0 3px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    padding: 0;
+    outline: none;
+}
+.pagination-circle:hover, .pagination-circle.active {
+    background-color: #778385;
+}
+.tel-value-carousel {
+    font-size: 14px;
+    margin: 0 0 5px 0;
+}
+.type-value-carousel {
+    margin-bottom: 5px;
+}
+/*.slide-item.card-brand-content {
+    width: 280px;
+      margin: 0 auto;
+      height: 100px;
+      margin-bottom: 30px;
+}*/
+.slide-add-card {
+    padding: 0 1.7em;
+}
+.card-brand {
+    display: block;
+    width: 160px;
+    height: 100px;
+}
+.brand-visa {
+    background: url("/assets/images/img-card.png") no-repeat;
+}
+.brand-mastercard {
+    background: url("/assets/images/master.jpg") no-repeat;
+}
+.img-wrap-card img {
+	width: 100%;
+}
+
+/******************************************
+* MOBILE CSS
+*******************************************/
+@media screen and (max-width: 739px){
+    .slider-wrapper {
+        width: 100%;
+    }
+    .slide-item {
+        padding: 0 0;
+        width: 100vw;
+    }
+    .arrow {
+        display: none;
+    }
+    .mobile.carousel-address .page, .mobile.carousel-card .page, .mobile.carousel-phone .page {
+        margin: 16px 0px 13px 0px;
+    }
+    .pagination-circle {
+        width: 7px;
+        height: 7px;
+    }
+    .div-line {
+        border-top: 2px solid #e5e5e5;
+        margin-top: 15px;
+    }
+    .div-margin {
+        margin-left: 0;
+    }
+    .card-brand {
+        width: 260px;
+        height: auto;
+    }
+    .img-wrap-carousel, .carousel-card .card-info-mobile {
+        width: 260px;
+        margin: 0 auto;
+    }
+    .img-wrap-carousel {
+        margin-bottom: 10px;
+    }
+    .card-info-right {
+        float: right;
+    }
+    .card-info-left {
+        float: left;
+    }
+    .card-inner-wrap {
+        width: 260px;
+        margin: 0 auto;
+        -webkit-transition:0.7s linear all;
+        -moz-transition:0.7s linear all;
+        -o-transition:0.7s linear all;
+        transition:0.7s linear all;
+    }
+    .img-wrap-carousel.card-brand {
+        -webkit-transition: 0.5s linear;
+        -moz-transition: 0.5s linear;
+        -o-transition: 0.5s linear;
+        transition: 0.5s linear;
+    }
+    .img-scale {
+        transform: scale(0.75);
+        -webkit-transform: scale(0.75);
+    }
+    .carousel-card .card-info-mobile span {
+        font-size: 13px;
+    }
+    .carousel-card .inner-wrap {
+        height: 195px;
+    }
+    .carousel-card .overflow-wrapper {
+        left: 50%;
+        margin-left: -130px;
+        overflow-y: initial;
+    }
+    .carousel-card .slide-item {
+        width: 240px;
+        min-height: 180px;
+        padding: 0;
+        margin: 0 auto;
+    }
+}

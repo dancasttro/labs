@@ -1,0 +1,72 @@
+h1
+{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+h1.checkout-title
+{
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 14px;
+    color: #FF7800;
+    font-weight: bold;
+    /*margin-bottom: 16px; não precisa por causa do row com top de 16px*/
+}
+
+.checkout-tittle {
+    margin-bottom: 16px;
+}
+
+p
+{
+    font-size: 12px;
+    color: #000000;
+    font-weight: normal;
+}
+
+.title-space {
+    padding: 0 24px;
+}
+
+
+@media screen and (max-width: 739px) {
+    h1
+    {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    h1.checkout-title
+    {
+        margin-bottom: 0px;
+    }
+
+    h2
+    {
+        font-size: 12px;
+        color: #FF7800;
+        font-weight: bold;
+        /*margin-bottom: 16px; não precisa por causa do row com top de 16px*/
+    }
+
+    .checkout-tittle {
+        margin-bottom: 16px;
+    }
+
+    p
+    {
+        font-size: 12px;
+        color: #000000;
+        font-weight: normal;
+    }
+
+    .title-space {
+        padding: 0 24px;
+    }
+}

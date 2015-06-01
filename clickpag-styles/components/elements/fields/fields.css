@@ -1,0 +1,38 @@
+/* base */
+input[type="text"],
+input[type="password"] {
+	-webkit-appearance: none;
+	border-radius: 0;
+	padding: 7px 5px 4px 0px;
+	width: 100%;
+	border: none;
+	font-size: 14px;
+	border-bottom: 1px solid #575758;
+	height: 40px;
+	box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+	outline: none;
+	color: #222222;
+}
+
+/* error */
+input[type="text"].field-error,
+input[type="password"].field-error {
+	border-bottom: 3px solid #F34235;
+	padding-bottom: 2px;
+}
+
+/* success */
+input[type="text"].field-success,
+input[type="password"].field-success {
+	border-bottom: 3px solid #1BBC9D;
+	padding-bottom: 2px;
+}
+
+/* password */
+input[type="password"].field-password {
+	border-bottom: 0px;
+}

@@ -1,0 +1,282 @@
+@font-face {
+    font-family: "icons";
+    src: url("/assets/fonts/icons.eot");
+    src: url("/assets/fonts/icons.eot?#iefix") format("embedded-opentype"),
+             url("/assets/fonts/icons.woff") format("woff"),
+             url("/assets/fonts/icons.ttf") format("truetype"),
+             url("/assets/fonts/icons.svg#icons") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: "icons";
+        src: url("/assets/fonts/icons.svg#icons") format("svg");
+    }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icon-back:before,
+.icon-card:before,
+.icon-cpf:before,
+.icon-date:before,
+.icon-email:before,
+.icon-help:before,
+.icon-home:before,
+.icon-keys:before,
+.icon-lock:before,
+.icon-mphone:before,
+.icon-name:before,
+.icon-phone:before,
+.icon-status-analysis:before,
+.icon-status-approved:before,
+.icon-status-not-approved:before {
+    display: inline-block;
+    font-family: "icons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+.icon-back {
+	color: #FF7800;
+}
+
+.icon-cart {
+	width: 58px;
+	top: -7px;
+	position: absolute;
+	left: 6px;
+}
+
+.icon-card,
+.icon-cpf,
+.icon-date,
+.icon-email,
+.icon-help,
+.icon-home,
+.icon-keys,
+.icon-lock,
+.icon-mphone,
+.icon-name,
+.icon-phone {
+    color: #575758;
+}
+
+.icon-back:before { content: "\f100";}
+.icon-card:before { content: "\f101";}
+.icon-cart:before { content: "\f102";}
+.icon-cpf:before { content: "\f103"; }
+.icon-date:before { content: "\f104"; }
+.icon-email:before { content: "\f105"; }
+.icon-help:before { content: "\f106"; }
+.icon-home:before { content: "\f107"; }
+.icon-keys:before { content: "\f108"; }
+.icon-lock:before { content: "\f109"; }
+.icon-mphone:before { content: "\f10a"; }
+.icon-name:before { content: "\f10b"; }
+.icon-phone:before { content: "\f10c"; }
+.icon-status-analysis:before { content: "\f10d"; }
+.icon-status-approved:before { content: "\f10e"; }
+.icon-status-not-approved:before { content: "\f10f"; }
+
+.icon-error {
+    color: #F34235;
+    width: 50px;
+    z-index: 1;
+}
+
+.icon-animation {
+    animation: iconAnimation linear 1s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    -webkit-animation: iconAnimation linear 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform-origin: 50% 50%;
+    -moz-animation: iconAnimation linear 1s;
+    -moz-animation-iteration-count: infinite;
+    -moz-transform-origin: 50% 50%;
+    -o-animation: iconAnimation linear 1s;
+    -o-animation-iteration-count: infinite;
+    -o-transform-origin: 50% 50%;
+    -ms-animation: iconAnimation linear 1s;
+    -ms-animation-iteration-count: infinite;
+    -ms-transform-origin: 50% 50%;
+}
+
+@keyframes iconAnimation {
+    0%   { transform:  translate(2px,0px);  }
+    10%  { transform:  translate(-2px,0px); }
+    20%  { transform:  translate(2px,0px);  }
+    30%  { transform:  translate(-2px,0px); }
+    40%  { transform:  translate(2px,0px);  }
+    50%  { transform:  translate(-2px,0px); }
+    60%  { transform:  translate(2px,0px);  }
+    70%  { transform:  translate(-2px,0px); }
+    80%  { transform:  translate(2px,0px);  }
+    90%  { transform:  translate(-2px,0px); }
+    100% { transform:  translate(2px,0px);  }
+}
+
+@-moz-keyframes iconAnimation {
+    0%   { -moz-transform:  translate(2px,0px);  }
+    10%  { -moz-transform:  translate(-2px,0px); }
+    20%  { -moz-transform:  translate(2px,0px);  }
+    30%  { -moz-transform:  translate(-2px,0px); }
+    40%  { -moz-transform:  translate(2px,0px);  }
+    50%  { -moz-transform:  translate(-2px,0px); }
+    60%  { -moz-transform:  translate(2px,0px);  }
+    70%  { -moz-transform:  translate(-2px,0px); }
+    80%  { -moz-transform:  translate(2px,0px);  }
+    90%  { -moz-transform:  translate(-2px,0px); }
+    100% { -moz-transform:  translate(2px,0px);  }
+}
+
+@-webkit-keyframes iconAnimation {
+    0%   { -webkit-transform:  translate(2px,0px);  }
+    10%  { -webkit-transform:  translate(-2px,0px); }
+    20%  { -webkit-transform:  translate(2px,0px);  }
+    30%  { -webkit-transform:  translate(-2px,0px); }
+    40%  { -webkit-transform:  translate(2px,0px);  }
+    50%  { -webkit-transform:  translate(-2px,0px); }
+    60%  { -webkit-transform:  translate(2px,0px);  }
+    70%  { -webkit-transform:  translate(-2px,0px); }
+    80%  { -webkit-transform:  translate(2px,0px);  }
+    90%  { -webkit-transform:  translate(-2px,0px); }
+    100% { -webkit-transform:  translate(2px,0px);  }
+}
+
+@-o-keyframes iconAnimation {
+    0%   { -o-transform:  translate(2px,0px);  }
+    10%  { -o-transform:  translate(-2px,0px); }
+    20%  { -o-transform:  translate(2px,0px);  }
+    30%  { -o-transform:  translate(-2px,0px); }
+    40%  { -o-transform:  translate(2px,0px);  }
+    50%  { -o-transform:  translate(-2px,0px); }
+    60%  { -o-transform:  translate(2px,0px);  }
+    70%  { -o-transform:  translate(-2px,0px); }
+    80%  { -o-transform:  translate(2px,0px);  }
+    90%  { -o-transform:  translate(-2px,0px); }
+    100% { -o-transform:  translate(2px,0px);  }
+}
+
+@-ms-keyframes iconAnimation {
+    0%   { -ms-transform:  translate(2px,0px);  }
+    10%  { -ms-transform:  translate(-2px,0px); }
+    20%  { -ms-transform:  translate(2px,0px);  }
+    30%  { -ms-transform:  translate(-2px,0px); }
+    40%  { -ms-transform:  translate(2px,0px);  }
+    50%  { -ms-transform:  translate(-2px,0px); }
+    60%  { -ms-transform:  translate(2px,0px);  }
+    70%  { -ms-transform:  translate(-2px,0px); }
+    80%  { -ms-transform:  translate(2px,0px);  }
+    90%  { -ms-transform:  translate(-2px,0px); }
+    100% { -ms-transform:  translate(2px,0px);  }
+}
+
+
+.icon-rede {
+    background: url('/assets/images/img-elements@2x.png');
+    background-position: -184px -7px;
+    background-size: 380px 380px;
+    width: 118px;
+    height: 40px;
+    display: block;
+}
+
+.lt-ie9 .icon-rede {
+    background: url('/assets/images/img-elements.png');
+    background-position: -184px -7px;
+    background-size: 380px 380px;
+    width: 118px;
+    height: 40px;
+    display: block;
+}
+
+.icon-brand {
+  width: 30px;
+  height: 30px;
+  display: block;
+  right: 0;
+  position: absolute;
+  top: 30px;
+}
+
+.icon-mastercard {
+    background: url('/assets/images/svgs/brand_mastercard.svg') no-repeat;
+}
+.icon-visa {
+    background: url('/assets/images/svgs/brand_visa.svg') no-repeat;
+}
+.icon-hipercard {
+    background: url('/assets/images/svgs/brand_hipercard.svg') no-repeat;
+}
+.icon-hiper {
+    background: url('/assets/images/svgs/brand_hiper.svg') no-repeat;
+}
+.icon-diners {
+    background: url('/assets/images/svgs/brand_diners.svg') no-repeat;
+}
+
+.icon-help-cvv {
+    background: url('/assets/images/icon-help-cvv.png') no-repeat;
+    display: block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 28px;
+    right: 0;
+    cursor: pointer;
+}
+.icon-help-type {
+    background: url('/assets/images/icon-help-cvv.png') no-repeat;
+    display: block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 28px;
+    left: 110px;
+    cursor: pointer;
+}
+.img-card-cvv {
+    background: url('/assets/images/icon-card-cvv.png') no-repeat 15px 10px;
+    padding: 30px 60px 30px 100px!important;
+}
+.img-card-brand {
+    width: 150px;
+    height: 95px;
+    box-shadow: 0 0 5px #B3B3B3;
+    -webkit-box-shadow: 0 0 5px #B3B3B3;
+    position: relative;
+    top: 1px;
+    border-radius: 5px;
+}
+.img-card-brand img {
+	width: 100%;
+}
+
+@media screen and (max-width: 739px) {
+	.icon-brand {
+		width: 50px;
+		height: 40px;
+		right: 25px;
+		top: 15px;
+	}
+	.icon-cart {
+		width: 48px;
+		top: 2px;
+		position: absolute;
+		left: 6px;
+	}
+}
+

@@ -1,0 +1,180 @@
+div.checkbox, div.checkbox-toggle {
+	font-size: 12px;
+	color: #222222;
+}
+
+div.checkbox {
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+div.checkbox-left {
+	left: 24px;
+}
+
+span.checkbox-right {
+	float: left;
+	line-height: 18px;
+	margin-left: 25px;
+}
+
+input[type="checkbox"].checkbox {
+	position: relative;
+	display: none;
+}
+
+div.checkbox label {
+	cursor: pointer;
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	border: 2px solid #B9B8B8;
+	border-radius: 2px;
+	background: transparent;
+	box-sizing: border-box;
+
+	-webkit-transform: rotate(-360deg);
+	-ms-transform: rotate(-360deg);
+	transform: rotate(-360deg);
+
+	transition-duration: 0.3s;
+	-webkit-transition-duration: 0.3s;
+
+	transition-delay: 0.2s;
+	-webkit-transition-delay: 0s;
+}
+
+input[type="checkbox"].checkbox:checked + label {
+	background: #FF7800;
+	border: 3px solid #FF7800;
+
+	-webkit-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+
+	transition-duration: 0.3s;
+	-webkit-transition-duration: 0.3s;
+
+	transition-delay: 0.2s;
+	-webkit-transition-delay: 0s;
+}
+
+div.checkbox label:before {
+	content: "";
+	position: absolute;
+	width: 4px;
+	top: 7px;
+	left: -1px;
+	border: 2px solid #FCFFFF;
+	border-radius: 3px;
+	border-top: none;
+	border-right: none;
+
+	-webkit-transform: rotate(50deg);
+	-ms-transform: rotate(50deg);
+	transform: rotate(50deg);
+}
+
+div.checkbox label:after {
+	content: "";
+	position: absolute;
+	width: 10px;
+	top: 5px;
+	left: 1px;
+	border: 2px solid #FCFFFF;
+	border-radius: 3px;
+	border-top: none;
+	border-right: none;
+
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+input[type="checkbox"].toggle {
+	max-height: 0;
+	max-width: 0;
+	opacity: 0;
+}
+
+input[type="checkbox"].toggle + label {
+	display: block;
+	position: relative;
+	text-indent: -5000px;
+	height: 15px;
+	width: 33px;
+	border-radius: 15px;
+	background-color:#b9b8b8;
+}
+
+input[type="checkbox"].toggle + label:before {
+	content: "";
+	position: absolute;
+	display: block;
+	height: 15px;
+	width: 15px;
+	top: 0;
+	left: 0;
+	border-radius: 15px;
+	background: #ff7800;
+	-moz-transition: .25s ease-in-out;
+	-webkit-transition: .25s ease-in-out;
+	transition: .25s ease-in-out;
+}
+
+input[type="checkbox"].toggle + label:after {
+	content: "";
+	position: absolute;
+	display: block;
+	height: 20px;
+	width: 20px;
+	top: -4px;
+	left: 0px;
+	border-radius: 15px;
+	background: white;
+	box-shadow: 0 2px 4px rgba(0,0,0,.3);
+	-moz-transition: .25s ease-in-out;
+	-webkit-transition: .25s ease-in-out;
+	transition: .25s ease-in-out;
+}
+
+input[type="checkbox"].toggle:checked + label:before {
+	width: 33px;
+	height:15px;
+	background: #ff7800;
+}
+
+input[type="checkbox"].toggle:checked + label:after {
+	left: 14px;
+	box-shadow: 0 2px 4px rgba(0,0,0,.3);
+}
+
+div.checkbox-toggle {
+	margin-bottom: 43px;
+	margin-right: 100px;
+}
+
+span.checkbox-toggle-left {
+	position: absolute;
+	line-height: 43px;
+	right: 40px;
+}
+
+div.checkbox-toggle-right {
+	position: absolute;
+	right: 0px;
+}
+
+.default {
+	clear: both;
+}
+
+.default span {
+	margin-left: 30px;
+	font-size: .8em;
+}
+
+
+.favorite-card {
+	right: 52px;
+}

@@ -1,0 +1,57 @@
+.img-itau {
+	background: url(../../../images/itau.png);
+	width: 51px;
+	height: 51px;
+	display: block;
+	position: absolute;
+}
+
+.div-box h1 {
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+}
+
+.div-box {
+	background: #FF7800;
+	height: 190px;
+  	width: 370px;
+  	padding-top:15px;
+  	padding-left: 15px;
+  	box-shadow: 0px 0px 5px #ADADAD;
+}
+
+.div-box h1:first-child {
+	margin-bottom: 5px;
+}
+
+.div-box p {
+	color: white;
+	margin-bottom: 3px;
+}
+
+.div-left {
+	margin-left: 80px;
+}
+
+.btn-left {
+	margin-left: 10px;
+}
+.box-authentication {
+	padding: 30px 20px;
+	margin-top: 25px;
+	height: 180px;
+}
+
+.box-authentication .div-left h1, .itau-authentication-txt  {
+	margin-bottom: 15px!important;
+}
+.itau-input {
+	background: rgb(255, 188, 128) url(../../../images/icon-pwd-itau.png) no-repeat 10px;
+	border-bottom: none!important;
+	padding: 10px 10px 10px 35px!important;
+	margin-top: 5px;
+}
+.itau-btn {
+	width: 120px!important;
+}

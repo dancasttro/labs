@@ -1,0 +1,91 @@
+/*
+  Icon Font: fontcustom
+*/
+
+@font-face {
+  font-family: "fontcustom";
+  src: url("../fonts/fontcustom_77340c5923b4824d5d6fdffff2dd8126.eot");
+  src: url("../fonts/fontcustom_77340c5923b4824d5d6fdffff2dd8126.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/fontcustom_77340c5923b4824d5d6fdffff2dd8126.woff") format("woff"),
+       url("../fonts/fontcustom_77340c5923b4824d5d6fdffff2dd8126.ttf") format("truetype"),
+       url("../fonts/fontcustom_77340c5923b4824d5d6fdffff2dd8126.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "fontcustom";
+    src: url("../fonts/fontcustom_77340c5923b4824d5d6fdffff2dd8126.svg#fontcustom") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icon-arrow:before,
+.icon-back:before,
+.icon-card:before,
+.icon-cart:before,
+.icon-cart-bay:before,
+.icon-chat:before,
+.icon-close:before,
+.icon-cod:before,
+.icon-config:before,
+.icon-cpf:before,
+.icon-cvv:before,
+.icon-gift:before,
+.icon-help:before,
+.icon-home:before,
+.icon-keys:before,
+.icon-mail:before,
+.icon-menu:before,
+.icon-mobile:before,
+.icon-name:before,
+.icon-ok:before,
+.icon-phone:before,
+.icon-search:before,
+.icon-status-analysis:before,
+.icon-status-approved:before,
+.icon-status-not-approved:before,
+.icon-user:before {
+  display: inline-block;
+  font-family: "fontcustom";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.icon-arrow:before { content: "\f118"; }
+.icon-back:before { content: "\f119"; }
+.icon-card:before { content: "\f11a"; }
+.icon-cart:before { content: "\f11b"; }
+.icon-cart-bay:before { content: "\f11c"; }
+.icon-chat:before { content: "\f11d"; }
+.icon-close:before { content: "\f12f"; }
+.icon-cod:before { content: "\f11e"; }
+.icon-config:before { content: "\f11f"; }
+.icon-cpf:before { content: "\f120"; }
+.icon-cvv:before { content: "\f121"; }
+.icon-gift:before { content: "\f122"; }
+.icon-help:before { content: "\f123"; }
+.icon-home:before { content: "\f124"; }
+.icon-keys:before { content: "\f125"; }
+.icon-mail:before { content: "\f126"; }
+.icon-menu:before { content: "\f127"; }
+.icon-mobile:before { content: "\f128"; }
+.icon-name:before { content: "\f129"; }
+.icon-ok:before { content: "\f130"; }
+.icon-phone:before { content: "\f12a"; }
+.icon-search:before { content: "\f12b"; }
+.icon-status-analysis:before { content: "\f12c"; }
+.icon-status-approved:before { content: "\f12d"; }
+.icon-status-not-approved:before { content: "\f131"; }
+.icon-user:before { content: "\f12e"; }

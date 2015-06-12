@@ -1,0 +1,23 @@
+.pai {
+	background-color: red;
+	width: 200px;
+	height: 200px;
+}
+.filho {
+	width: 400px;
+	height: 3px;
+	background-color: yellow;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-direction:normal;
+}
+
+@-webkit-keyframes example {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 400px;
+    }
+}

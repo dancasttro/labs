@@ -1,0 +1,94 @@
+/*doc
+---
+title: Cores
+name: cores
+category: Colors
+---
+
+## Branding
+<div class="row">
+    <div class="col-md-2">
+      <div class="box-color color-brand1"></div>
+      <code>#FF7800</code>
+    </div>
+    <div class="col-md-2">
+      <div class="box-color color-brand2"></div>
+      <code>#FFC807</code>
+    </div>
+    <div class="col-md-2">
+      <div class="box-color color-brand3"></div>
+      <code>#E6B00F</code>
+    </div>
+    <div class="col-md-2">
+      <div class="box-color color-brand4"></div>
+      <code>#11BACC</code>
+    </div>
+    <div class="col-md-2">
+      <div class="box-color color-brand5"></div>
+      <code>#1BBC9D</code>
+    </div>
+    <div class="col-md-2">
+      <div class="box-color color-brand6"></div>
+      <code>#F34235</code>
+    </div>
+</div>
+
+## Grayscale
+<div class="row">
+    <div class="col-md-2">
+      <div class="box-color color1"></div>
+      <code>#FF7800</code>
+    </div>
+    <div class="col-md-2">
+      <div class="box-color color2"></div>
+      <code>#FFC807</code>
+    </div>
+    <div class="col-md-2">
+      <div class="box-color color3"></div>
+      <code>#E6B00F</code>
+    </div>
+    <div class="col-md-2">
+      <div class="box-color color4"></div>
+      <code>#11BACC</code>
+    </div>
+    <div class="col-md-2">
+      <div class="box-color color5"></div>
+      <code>#1BBC9D</code>
+    </div>
+    <div class="col-md-2">
+      <div class="box-color color6"></div>
+      <code>#F34235</code>
+    </div>
+    <div class="col-md-2">
+      <div class="box-color color6"></div>
+      <code>#F34235</code>
+    </div>
+    <div class="col-md-2">
+      <div class="box-color color6"></div>
+      <code>#F34235</code>
+    </div>
+</div>
+
+*/
+
+
+.color-brand1 {
+	background-color: #FF7800;
+}
+.color-brand2 {
+	background-color: #FFC807;
+}
+.color-brand3 {
+	background-color: #E6B00F;
+}
+.color-brand4 {
+	background-color: #11BACC;
+}
+.color-brand5 {
+	background-color: #1BBC9D;
+}
+.color-brand6 {
+	background-color: #F34235;
+}
+
+

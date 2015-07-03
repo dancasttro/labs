@@ -24,6 +24,10 @@
             a(href='color') Cores
           li
             a(href='#buttons') Buttons
+          li
+            a(href='#fields') Fields
+          li
+            a(href='#checkbox') Checkbox
       section.col-right
         section
           h2#intro Introdução

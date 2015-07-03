@@ -32,6 +32,12 @@
         <li>
           <a href="#buttons">Buttons</a>
         </li>
+        <li>
+          <a href="#fields">Fields</a>
+        </li>
+        <li>
+          <a href="#checkbox">Checkbox</a>
+        </li>
       </ul>
     </aside>
     <section class="col-right">
@@ -311,17 +317,47 @@
             </div>
             <div class="sg-example">
               <div class="sg-canvas">
-                <div class="checkbox">
-                  <fieldset class="checkbox-left">
-                    <input type="checkbox" id="checkbox" class="checkbox">
-                    <label for="checkbox"></label>
-                  </fieldset>
+                <div class="checkbox-checker">
+                  <div class="checkbox-checker-wrap">
+                    <input type="checkbox" id="ckb-checker" class="ckb-checker-input">
+                    <label for="ckb-checker">
+                      <i class="icon-ok"></i>
+                    </label>
+                    <span class="checkbox-checker-text">exemplo de checkbox</span>
+                  </div>
                 </div>
-              </div><pre class="sg-code"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;checkbox&quot;</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-title">fieldset</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;checkbox-left&quot;</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-title">input</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">&quot;checkbox&quot;</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;checkbox&quot;</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;checkbox&quot;</span> /&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-title">label</span> <span class="hljs-attribute">for</span>=<span class="hljs-value">&quot;checkbox&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
-  <span class="hljs-tag">&lt;/<span class="hljs-title">fieldset</span>&gt;</span>
+              </div><pre class="sg-code"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;checkbox-checker&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;checkbox-checker-wrap&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">input</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">&quot;checkbox&quot;</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;ckb-checker&quot;</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;ckb-checker-input&quot;</span> /&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">label</span> <span class="hljs-attribute">for</span>=<span class="hljs-value">&quot;ckb-checker&quot;</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">i</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;icon-ok&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">i</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;checkbox-checker-text&quot;</span>&gt;</span>exemplo de checkbox<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></pre>
+            </div>
+          </section>
+          <section class="sg-block sg-section-checkbox-toggle">
+            <div class="sg-text">
+              <h3 id="checkbox-toggle" class="sg">Checkbox Toggle</h3>
+              <p class="sg">
+                <code class="sg">.checkbox-toggle</code>- documentation on what your component is goes here. Markdown is encouraged.</p>
+            </div>
+            <div class="sg-example">
+              <div class="sg-canvas">
+                <div class="checkbox-toggle">
+                  <div class="checkbox-toggle-wrap">
+                    <input type="checkbox" id="ckb-toggle" class="ckb-toggle-input">
+                    <label for="ckb-toggle"></label>
+                    <span class="checkbox-toggle-text">exemplo de checkbox</span>
+                  </div>
+                </div>
+              </div><pre class="sg-code"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;checkbox-toggle&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;checkbox-toggle-wrap&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">input</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">&quot;checkbox&quot;</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;ckb-toggle&quot;</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;ckb-toggle-input&quot;</span> /&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">label</span> <span class="hljs-attribute">for</span>=<span class="hljs-value">&quot;ckb-toggle&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;checkbox-toggle-text&quot;</span>&gt;</span>exemplo de checkbox<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></pre>
             </div>
           </section>

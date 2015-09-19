@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	display: flex;
+	background-color: antiquewhite;
+	flex-wrap: wrap;
+}
+.item {
+	list-style: none;
+	background-color: brown;
+	width: 100px;
+	height: 70px;
+	margin: 5px;
+}
+

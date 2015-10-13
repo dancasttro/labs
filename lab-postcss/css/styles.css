@@ -1,0 +1,10 @@
+$color: green;
+
+body {
+	background-color: blue;
+	display: flex;
+	transform: translateX(10px);
+	h1 {
+		color: $color;
+	}
+}

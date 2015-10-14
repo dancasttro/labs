@@ -1,10 +1,20 @@
-$color: green;
-
 body {
 	background-color: blue;
 	display: flex;
 	transform: translateX(10px);
-	h1 {
-		color: $color;
-	}
+}
+
+.grid-item {
+	background-color: red;
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.grid-one {
+	width: 100%;
+	lost-utility: clearfix;
+}
+
+.grid-one div {
+	lost-column: 1/2 3;
 }

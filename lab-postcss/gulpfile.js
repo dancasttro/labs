@@ -2,14 +2,13 @@
 
 var gulp = require('gulp'),
 	postcss = require('gulp-postcss'),
-	csswring = require('csswring'),
-	stylus = require('gulp-stylus'),
-	cssnext = require('cssnext'),
 	precss = require('precss'),
+	lost = require('lost'),
 	autoprefixer = require('autoprefixer-core');
 
 gulp.task('styles', function() {
 	var processors = [
+		lost,
 		precss({}),
 		autoprefixer({browsers: ['last 2 version']})
 	];

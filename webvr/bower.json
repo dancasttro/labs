@@ -1,0 +1,22 @@
+{
+  "name": "achei-litoralleste",
+  "description": "Boilerplate Web app",
+  "main": "gulpfile.js",
+  "authors": [
+    "Daniel Castro"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "^1.6.4",
+    "angular-ui-router": "^0.4.2",
+    "angular-route": "^1.6.4"
+  }
+}

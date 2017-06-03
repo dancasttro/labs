@@ -7,7 +7,25 @@
 </head>
 <body>
     <a-scene>
-        <a-box color="red" width="2" height="1" ></a-box>
+        <a-assets>
+            <img id="img1" src="assets/img/IMG-20170101-WA0004.jpg" alt="">
+            <img id="img2" src="assets/img/IMG-20170101-WA0005.jpg" alt="">
+            <img id="img3" src="assets/img/IMG-20170114-WA0003.jpg" alt="">
+            <img id="img4" src="assets/img/IMG_20170107_215938.jpg" alt="">
+        </a-assets>
+        <a-image src="#img1" width="7.5" height="10" position="1 2 -2"></a-image>
+        <a-image src="#img2" width="16" height="9" position="-12 4 -2"></a-image>
+        <a-image src="#img3" width="7.5" height="10" position="7 9 -2"></a-image>
+        <a-image src="#img4" width="7.5" height="10" position="12 6 -2"></a-image>
+        <!-- <a-curvedimage src="" height="" width="" radius="" theta-length="" rotation="0" scale="" position=""></a-curvedimage> -->
+        <!-- <a-box position="-1 0.5 -3" rotation="0 45 0" color="red" width="2" height="1" > -->
+            <!-- <animation attribute="rotation" begin="click" repeat="indefinite" to="0 360 0"></animation> -->
+        <!-- </a-box> -->
+        <a-camera position="0 0 10">
+            <a-cursor color="#00FF00"></a-cursor>
+        </a-camera>
+        <!-- <a-light type="spot" color="#00FF00" position="0 0 5"></a-light> -->
+        <!-- <a-sky src="assets/img/Free_002_Spherical.jpg"></a-sky> -->
     </a-scene>
 
 </body>

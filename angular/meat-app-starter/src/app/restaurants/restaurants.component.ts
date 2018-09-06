@@ -6,6 +6,7 @@ import { Restaurant } from './restaurant/restaurant.model';
   templateUrl: './restaurants.component.html'
 })
 export class RestaurantsComponent implements OnInit {
+
   restaurants: Restaurant[] = [
     {
       id: 'bread-bakery',

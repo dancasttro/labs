@@ -4,5 +4,6 @@ describe('Teste do toMatch', function() {
 
         expect(texto).toMatch('jasmine');
         expect(texto).toMatch(/jasmine/);
+        expect('12345-456').toMatch(/^\d{5}-\d{3}$/);
     });
 });
